@@ -1,0 +1,74 @@
+Last login: Sat Oct  5 22:35:23 on ttys001
+aleksandra.rancic@Markos-MacBook-Air ~ % source venv/bin/activate
+(venv) aleksandra.rancic@Markos-MacBook-Air ~ % ls
+Applications		Pictures		main.py
+Desktop			Public			myenv
+Documents		README_exam_fastAPI.txt	questions_en.xlsx
+Downloads		__pycache__		requirements.txt
+Library			env			test_requests.py
+Movies			exc.py			test_requests_exam.py
+Music			fastapi_async.py	venv
+(venv) aleksandra.rancic@Markos-MacBook-Air ~ % cd Desktop 
+(venv) aleksandra.rancic@Markos-MacBook-Air Desktop % ls
+Applications Data Science		Screenshot 2024-10-02 at 16.50.00.png
+FastAPI_Exam				Screenshot 2024-10-05 at 01.46.16.png
+MLOps_Project				Screenshot 2024-10-05 at 01.46.25.png
+Screenshot 2024-10-02 at 13.22.09.png	Screenshot 2024-10-05 at 01.47.59.png
+(venv) aleksandra.rancic@Markos-MacBook-Air Desktop % cd MLOps_Project 
+(venv) aleksandra.rancic@Markos-MacBook-Air MLOps_Project % ls
+MLOps		MLOps.zip
+(venv) aleksandra.rancic@Markos-MacBook-Air MLOps_Project % cd MLOps
+(venv) aleksandra.rancic@Markos-MacBook-Air MLOps % ls
+ML_Model_API	Notebooks	dataset
+(venv) aleksandra.rancic@Markos-MacBook-Air MLOps % cd ML_Model_API 
+(venv) aleksandra.rancic@Markos-MacBook-Air ML_Model_API % ls
+__pycache__	env		venv
+(venv) aleksandra.rancic@Markos-MacBook-Air ML_Model_API % cd venv
+(venv) aleksandra.rancic@Markos-MacBook-Air venv % ls
+AAPL_data.csv
+Dockerfile
+Stocks_Investigations_MLOpsTraining_AleksandraRancic_Dataset&MLModel.ipynb
+X_test.npy
+X_train.npy
+__pycache__
+bin
+docker-compose.yml
+include
+lib
+lstm_model.h5
+lstm_model.pkl
+lstm_model_metrics.json
+minmax_scaler.pkl
+pyvenv.cfg
+requirements.txt
+stock_prediction_api.ipynb
+stock_prediction_api.py
+y_test.npy
+y_train.npy
+(venv) aleksandra.rancic@Markos-MacBook-Air venv % crontab -e
+crontab: no crontab for aleksandra.rancic - using an empty one
+
+*/30 * * * * curl -s 'http://localhost:8000/evaluate > /dev/numm 2>&1
+
+
+
+
+
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+-- ^X mode (^]^D^E^F^I^K^L^N^O^Ps^U^V^Y)
