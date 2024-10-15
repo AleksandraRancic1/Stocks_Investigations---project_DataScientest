@@ -46,8 +46,8 @@ jobs:
     - name: Log in to Docker Hub
       uses: docker/login-action@v2
       with:
-        username: aleksandrarancic
-        password: Stock@Investigations2024.MLOps
+        username: ${{ secrets.DOCKER_HUB_USERNAME }}
+        password: ${{ secrets.DOCKER_HUB_PASSWORD }}
 
     - name: Push Docker image
       run: |
